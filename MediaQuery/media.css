@@ -1,0 +1,144 @@
+@media screen and (max-width:970px) and (min-width:769px) {
+    .menu ul li{
+        margin: 15px 5px;
+    }
+    .menu{
+        width: 70%;
+    }
+    .menu-logo{
+        width: 20%;
+    }
+    /* about */
+    .about-layer{
+        display: none;
+    }
+    /* Services */
+    .our-service h2{
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:768px) and (min-width:500px)  {
+    /* navbar */
+    .menu{
+        display: none;
+    }
+    .drop-menu{
+        display: unset;
+    }
+    /* home */
+    .home-content h3{
+        font-size: 15px;
+    }
+    .home-content h1{
+        font-size: 40px;
+    }
+    .home-content h2{
+        font-size: 15px;
+    }
+    /* about */
+    .about-layer{
+        display: none;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-content{
+        margin-top: 10px;
+        width: 100%;
+    }
+    /* Services */
+    .our-service{
+        width: 100%;
+        margin-top: 0px;
+    }
+    /* portfile */
+    .list ul li{
+        margin: 10px;
+    }
+    .list a{
+        font-size: 15px;
+    }
+    .child{
+        width: 100%;
+    }
+    /* section */
+    .sub-section{
+        width: 100%;
+    }
+    /* Testimonial */
+    .review{
+        width: 100%;
+    }
+    /* Blog */
+    .blog{
+        width: 100%;
+    }
+    /* footer */
+    .footer h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:500px)  {
+    /* navbar */
+    .menu{
+        display: none;
+    }
+    .drop-menu{
+        display: unset;
+    }
+    /* home */
+    .home-content h3{
+        font-size: 15px;
+    }
+    .home-content h1{
+        font-size: 35px;
+    }
+    .home-content h2{
+        font-size: 15px;
+    }
+    /* about */
+    .about-layer{
+        display: none;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-content{
+        margin-top: 10px;
+        width: 100%;
+    }
+    /* Services */
+    .our-service{
+        width: 100%;
+        margin-top: 0px;
+    }
+    /* portfile */
+    .list ul li{
+        margin: 10px;
+    }
+    .list a{
+        font-size: 15px;
+    }
+    .child{
+        width: 100%;
+    }
+    /* section */
+    .sub-section{
+        width: 100%;
+    }
+    /* Testimonial */
+    .review{
+        width: 100%;
+    }
+    /* Blog */
+    .blog{
+        width: 100%;
+    }
+    /* footer */
+    .footer h2{
+        font-size: 10px;
+    }
+}
