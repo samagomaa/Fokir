@@ -101,6 +101,26 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.home-content h2::after{
+    content: "Designer";
+    margin-left: 5px;
+    border-right: 2px solid #fff;
+    animation-name: show;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes show {
+    0%{
+        content: "Designer";
+    }
+    50%{
+        content: "";
+    }
+    100%{
+        content: "Developer";
+    }
+}
 /* end Home */
 
 /* start about  */
@@ -308,7 +328,10 @@
 }
 
 .parent{
-    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 20px; */
 }
 
 .child{
@@ -342,6 +365,13 @@
 .child:hover .fa-solid{
     opacity: 1;
 }
+.child-layer .fa-link{
+    color: #ff3051; 
+    position: absolute; 
+    bottom: 10px;
+    right: 10px;
+}
+
 .section{
     background-color: #f1f1f1;
 }
@@ -433,7 +463,9 @@
     background-color: #f1f1f1;
 }
 .vlog{
-    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .blog{
     width: 30%;
